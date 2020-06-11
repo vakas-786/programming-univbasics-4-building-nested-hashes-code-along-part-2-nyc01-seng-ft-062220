@@ -69,5 +69,8 @@ epic_tragedy[:additional_characters] << apothecary
 
 
    # After your code, the following line will return the altered hash
-   epic_tragedy
+   epic_tragedy[:additional_characters] = [
+     { name: "Prince Escalus" },
+     { name: "Apothecary" }
+   ]
 end
